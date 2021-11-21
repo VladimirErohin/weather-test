@@ -1,0 +1,21 @@
+$lite-background:#fff;
+$box-shadow: 10px 6px 15px -8px rgba(33, 36, 37, 0.29);
+$border-radius:4px;
+$base-color:#ced4e0;
+$color-blue: #02ACF7;
+$color-span:#2f4063;
+$color-dark-blue: #1043ad;
+$color-description:#a9d1d9;
+@mixin button-style() {
+  margin-right: 15px;
+  border-radius: 3px;
+  padding: 6px 14px;
+  color: white;
+  background: #02ACF7;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+

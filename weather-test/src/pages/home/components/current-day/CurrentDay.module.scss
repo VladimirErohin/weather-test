@@ -1,0 +1,57 @@
+@import "../../../../styles/variables.scss";
+
+.current__day{
+  border: 1px solid #838996;
+  padding: 2px;
+  max-width: 200px;
+  width: 100%;
+  margin-top: 8px;
+  background: $lite-background;
+  border-radius: $border-radius;
+
+  .current__day_data{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+
+    .day__temp{
+      color:$color-blue;
+      font-size: 48px;
+      font-weight: 500;
+      margin-left: 14px;
+    }
+
+    .current__description{
+      margin-bottom: 14px;
+      font-size: 18px;
+      color: $color-dark-blue;
+    }
+
+    .wrapper__top{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    img{
+      margin-top: 6px;
+      width: 56px;
+      height: 56px;
+    }
+    .info{
+      color: $base-color;
+    }
+
+    .cel{
+      font-size: 26px;
+      color: $base-color;
+      margin-bottom: 18px;
+    }
+    .current__city{
+      font-size: 22px;
+      color:$color-span;
+      margin: 4px 0;
+    }
+  }
+}

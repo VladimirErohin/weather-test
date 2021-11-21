@@ -1,0 +1,17 @@
+@import "../../../../../styles/variables";
+
+.weather {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+
+  h2 {
+    color: $color-span;
+    margin: 0;
+  }
+}
+
+.cards {
+  display: flex;
+}

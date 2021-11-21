@@ -1,0 +1,31 @@
+@import "src/styles/variables.scss";
+
+.header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:1px solid $color-blue ;
+
+  .title{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 22px;
+    color:$color-blue;
+    margin-left: 20px;
+  }
+
+  .navbar{
+    padding: 14px 0;
+    .link{
+      color:$color-span;
+      padding: 4px;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+    .link:hover{
+      background: #d5d8de;
+      color: white;
+    }
+  }
+}

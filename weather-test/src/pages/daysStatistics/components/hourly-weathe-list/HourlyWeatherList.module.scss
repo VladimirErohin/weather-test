@@ -1,0 +1,18 @@
+.hourly__weather__list {
+  margin-top: 30px;
+  padding: 0 20px;
+
+  .hourly__list {
+    border: 1px solid #02ACF7;
+    border-radius: 4px;
+    display: flex;
+    margin-top: 16px;
+  }
+  .today{
+    font-size: 20px;
+    color: #ced4e0;
+  }
+  h2{
+    font-size: 30px;
+  }
+}

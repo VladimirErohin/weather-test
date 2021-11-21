@@ -1,0 +1,23 @@
+@import "../../../../../styles/variables.scss";
+
+.search__input{
+  display: flex;
+
+  input{
+    border: 1px solid $base-color;
+  }
+  .button{
+    @include button-style();
+    height: 16px;
+    border-radius: 0 4px 4px 0;
+    &:hover{
+      background: $base-color;
+      box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+  }
+}
+.note{
+  color: $color-description;
+  font-size: 12px;
+}
+
